@@ -6,7 +6,7 @@
 // Methodu post olarak değiştirebilirsiniz kullanıma göre değişir.
 $telno = $_GET["gsm"];
 
-foreach (glob("spammers/*.php") as $filename)
+foreach (glob("servisler/*.php") as $filename)
 {  
 	include_once $filename;
 }
